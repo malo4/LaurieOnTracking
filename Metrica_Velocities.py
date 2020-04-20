@@ -16,7 +16,7 @@ import scipy.signal as signal
 def calc_player_velocities(team, smoothing=True, filter_='Savitzky-Golay', window=7, polyorder=1, maxspeed = 12):
     """ calc_player_velocities( tracking_data )
     
-    Calculate player velocities in x & y direciton, and total player speed at each timestamp of the tracking data
+    Calculate player velocities in x & y direction, and total player speed at each timestamp of the tracking data
     
     Parameters
     -----------
@@ -24,7 +24,7 @@ def calc_player_velocities(team, smoothing=True, filter_='Savitzky-Golay', windo
         smoothing: boolean variable that determines whether velocity measures are smoothed. Default is True.
         filter: type of filter to use when smoothing the velocities. Default is Savitzky-Golay, which fits a polynomial of order 'polyorder' to the data within each window
         window: smoothing window size in # of frames
-        polyorder: order of the polynomial for the Savitzky-Golay filter. Default is 1 - a linear fit to the velcoity, so gradient is the acceleration
+        polyorder: order of the polynomial for the Savitzky-Golay filter. Default is 1 - a linear fit to the velocity, so gradient is the acceleration
         maxspeed: the maximum speed that a player can realisitically achieve (in meters/second). Speed measures that exceed maxspeed are tagged as outliers and set to NaN. 
         
     Returrns
