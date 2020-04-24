@@ -12,7 +12,7 @@ Forked LaurieOnTracking repository, implementing the code from Laurie's lessons 
 
 Apart from meaningful comments, my notebooks contain:
 
-(for lesson 5) A custom implementation on how to calculate & visualize the top speed a player reached during the game. Worth noting that this process allows you to throw away any outlying values (due to player position incorrectly recorded).
+(for lesson 5) A custom implementation on how to calculate & visualize the top speed a player reached during the game. Worth noting that this process allows you to throw away any outlying values (due to player position incorrectly recorded in tracking data).
 
 
 
