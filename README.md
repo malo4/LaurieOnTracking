@@ -9,9 +9,7 @@ To create movies from the tracking data you'll need to have ffmpeg installed. Yo
 
 
 # What's extra:
-Forked LaurieOnTracking repository, implementing the code from Laurie's lessons into Jupyter notebooks. Apart from meaningful comments, these notebooks contain:
+Forked LaurieOnTracking repository, implementing the code from Laurie's tutorials into Jupyter notebooks. Apart from meaningful comments, these notebooks contain:
 
-(lesson 5 file) A custom implementation on how to calculate & visualize the top speed a player reached during the game. Worth noting that this process allows you to throw away any outlying values (due to player position incorrectly recorded in tracking data).
-
-
+(In tutorial_2) A custom implementation on how to calculate & visualize the top speed a player reached during the game. Worth noting that this process allows you to throw away any outlying values (due to player position incorrectly recorded in tracking data).
 
