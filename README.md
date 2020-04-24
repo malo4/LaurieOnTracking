@@ -7,9 +7,5 @@ We'll be updating this repo as the friends of tracking series develops, adding c
 
 To create movies from the tracking data you'll need to have ffmpeg installed. You can do this by following the instructions here: https://anaconda.org/conda-forge/ffmpeg (you may need to restart python afterwards).
 
-# Jupyter Notebooks
-Forked LaurieOnTracking repository, implementing the code from Laurie's lessons into Jupyter notebooks.
 
-Apart from meaningful comments, these notebooks contain:
 
-(lesson 5 file) A custom implementation on how to calculate & visualize the top speed a player reached during the game. Worth noting that this process allows you to throw away any outlying values (due to player position incorrectly recorded in tracking data).
