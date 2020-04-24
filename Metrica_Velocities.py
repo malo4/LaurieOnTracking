@@ -1,7 +1,33 @@
+
+# coding: utf-8
+
+# In[ ]:
+
+
+'''
+how to create your own python module:
+
+rename this file as you want 
+
+transfermakrt_mod the particular (note, do NOT use capital letters!) 
+
+write your code...
+
+file >> download as >> .py
+
+and then click on jupyter this option Upload, and select the file downloaded to my Downloads
+(As of this moment, you don't need this jupyter file anymore!)
+
+'''
+
+
+# In[ ]:
+
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Apr  6 14:52:19 2020
+Created on Wed Apr 22 (changed maxspeed to 10.8 m/s)
 
 Module for measuring player velocities, smoothed using a Savitzky-Golay filter, with Metrica tracking data.
 
@@ -13,7 +39,7 @@ Data can be found at: https://github.com/metrica-sports/sample-data
 import numpy as np
 import scipy.signal as signal
 
-def calc_player_velocities(team, smoothing=True, filter_='Savitzky-Golay', window=7, polyorder=1, maxspeed = 12):
+def calc_player_velocities(team, smoothing=True, filter_='Savitzky-Golay', window=7, polyorder=1, maxspeed = 10.8):
     """ calc_player_velocities( tracking_data )
     
     Calculate player velocities in x & y direction, and total player speed at each timestamp of the tracking data
@@ -87,3 +113,4 @@ def remove_player_velocities(team):
     team = team.drop(columns=columns)
     return team
     
+
