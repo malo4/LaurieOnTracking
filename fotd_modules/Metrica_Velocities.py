@@ -1,29 +1,3 @@
-
-# coding: utf-8
-
-# In[ ]:
-
-
-'''
-how to create your own python module:
-
-rename this file as you want 
-
-transfermakrt_mod the particular (note, do NOT use capital letters!) 
-
-write your code...
-
-file >> download as >> .py
-
-and then click on jupyter this option Upload, and select the file downloaded to my Downloads
-(As of this moment, you don't need this jupyter file anymore!)
-
-'''
-
-
-# In[ ]:
-
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
